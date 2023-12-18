@@ -1,4 +1,4 @@
-# Html Retrieval
+# HTML Retrieval
 
 Written by Tiger Li, Dec 19, 2023
 
@@ -9,3 +9,6 @@ As the Retrieval-Augmented Generation (RAG) technique on LLM advanced, it made u
 This repo explores various rich text embedding approaches for HTML documents. These are mainly transformer-encoder-based models: Sentense-Transformer, MarkupLM, and Dense Passage Retriever (DPR). The code implementations are derived from the HuggingFace model tutorial.
 
 Briefly, we designed a simple experiment: given a Natural Language(NL) query, can we look up the relevant HTML pages based on the embedding vector? Testing results can be found in the `img` folder. The result reveals that more optimization spaces could be involved for better accuracy.
+
+## Dev Env
+Python(Jupyter) + Langchain - Retrieval Library + Transformers
